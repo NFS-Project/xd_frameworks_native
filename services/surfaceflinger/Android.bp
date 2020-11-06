@@ -26,6 +26,7 @@ cc_defaults {
     defaults: [
         "surfaceflinger_defaults",
         "skia_renderengine_deps",
+        "disable_postrender_cleanup_defaults",
     ],
     cflags: [
         "-DLOG_TAG=\"SurfaceFlinger\"",
